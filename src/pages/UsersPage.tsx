@@ -468,9 +468,6 @@ function UsersPage() {
                         >
                           <Eye className="w-4 h-4" />
                         </button>
-                        <button className="p-2 text-gray-500 hover:text-green-600 transition-colors">
-                          <Edit className="w-4 h-4" />
-                        </button>
                         {user.status === 'active' ? (
                           <button
                             onClick={() => handleUserAction(user.id, 'suspended')}
