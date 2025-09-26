@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { 
-  Users, Search, Filter, Plus, Eye, Edit, Trash2, 
-  Shield, UserCheck, UserX, Mail, Phone, Calendar,
-  MoreVertical, Ban, CheckCircle, AlertTriangle
-} from 'lucide-react';
+import { Users, Search, Filter, Plus, Eye, CreditCard as Edit, Trash2, Shield, UserCheck, UserX, Mail, Phone, Calendar, MoreVertical, Ban, CheckCircle, AlertTriangle } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { useTheme } from '../contexts/ThemeContext';
 import toast from 'react-hot-toast';
